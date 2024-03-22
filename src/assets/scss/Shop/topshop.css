@@ -1,0 +1,102 @@
+.shop-top {
+  margin: 0;
+  padding: 0;
+}
+.shop-top .shop-top-both {
+  background-color: #f9f1e7;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+.shop-top .shop-top-both .shop-top-left {
+  padding: 4% 0;
+  margin-left: 20%;
+  font-size: 1rem;
+}
+.shop-top .shop-top-both .shop-top-left i {
+  margin: 0px 2%;
+}
+.shop-top .shop-top-both .shop-top-right {
+  padding: 4% 0;
+  margin-left: 20%;
+  font-size: 1rem;
+}
+.shop-top .shop-top-both .shop-top-right .show-right {
+  margin: 0;
+  padding: 0;
+}
+.shop-top .shop-top-both .shop-top-right .show-right span {
+  border: 1px solid white;
+  background-color: white;
+  padding: 5px 10px;
+  margin: 0px 8px;
+  opacity: 0.7;
+}
+@media screen and (max-width: 480px) {
+  .shop-top .shop-top-both {
+    background-color: #f9f1e7;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+  .shop-top .shop-top-both .shop-top-left {
+    padding: 3% 0;
+    height: 0%;
+    text-align: center;
+    margin-left: 0%;
+    font-size: 15px;
+  }
+  .shop-top .shop-top-both .shop-top-left i {
+    margin: 0px 0%;
+  }
+  .shop-top .shop-top-both .shop-top-right {
+    padding: 3% 0;
+    margin-left: 0%;
+    text-align: center;
+    font-size: 15px;
+    height: 0%;
+  }
+  .shop-top .shop-top-both .shop-top-right .show-right {
+    margin: 0;
+    padding: 0;
+  }
+  .shop-top .shop-top-both .shop-top-right .show-right span {
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px 10px;
+    margin: 0px 8px;
+    opacity: 0.7;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .shop-top .shop-top-both {
+    background-color: #f9f1e7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .shop-top .shop-top-both .shop-top-left {
+    width: 100%;
+    padding: 8% 0;
+    margin-left: 20%;
+    font-size: 1rem;
+  }
+  .shop-top .shop-top-both .shop-top-left i {
+    margin: 0px 0%;
+  }
+  .shop-top .shop-top-both .shop-top-right {
+    padding: 8% 0;
+    margin-left: 0%;
+    font-size: 1rem;
+  }
+  .shop-top .shop-top-both .shop-top-right .show-right {
+    margin: 0;
+    padding: 0;
+  }
+  .shop-top .shop-top-both .shop-top-right .show-right span {
+    border: 1px solid white;
+    background-color: white;
+    padding: 0px 10px;
+    margin: 0px 8px;
+    opacity: 0.7;
+  }
+}/*# sourceMappingURL=topshop.css.map */

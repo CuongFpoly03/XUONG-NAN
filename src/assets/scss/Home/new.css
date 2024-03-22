@@ -1,0 +1,287 @@
+/* PRODUCT */
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+.products .product-item {
+  background-color: #f4f5f7;
+  position: relative;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.products .product-item .product__thumbnail {
+  padding: 0;
+  margin: 0;
+}
+.products .product-item .product__thumbnail img {
+  width: 284px;
+  height: 301px;
+}
+.products .product-item:hover .product-content-extra {
+  opacity: 1;
+  bottom: 0;
+}
+.products .product-content {
+  background: #f4f5f7;
+}
+.products .product-content .product__name {
+  margin: 10px 10px;
+}
+.products .product-content .product__name a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.products .product-content .product__cate {
+  margin: 0px 10px;
+  color: #909090;
+}
+.products .product-content .product-price {
+  margin: 5px 10px;
+}
+.products .product-content .product-price span {
+  font-weight: bold;
+}
+.products .product-thumbnail {
+  position: relative;
+}
+.products .product__sale {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: 1px solid #e97171;
+  border-radius: 80px;
+  padding: 4px 1px;
+  background-color: #e97171;
+  color: white;
+}
+.products .product__name {
+  margin: 0;
+  padding: 0;
+}
+.products .product-content-extra {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+}
+.products .btn__addtocart {
+  max-width: 150px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b88e2f;
+  padding: 6px 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.products .new-icon {
+  margin-top: 10px;
+  padding: 0;
+}
+.products .new-icon span {
+  color: white;
+  margin: 0px 7px;
+}
+
+@media screen and (max-width: 480px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  .products .product-item {
+    background-color: #f4f5f7;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .products .product-item .product__thumbnail {
+    padding: 0;
+    margin: 0;
+  }
+  .products .product-item .product__thumbnail img {
+    width: 284px;
+    height: 150px;
+  }
+  .products .product-item:hover .product-content-extra {
+    opacity: 1;
+    bottom: 0;
+  }
+  .products .product-content {
+    background: #f4f5f7;
+  }
+  .products .product-content .product__name {
+    margin: 10px 10px;
+  }
+  .products .product-content .product__name a {
+    text-decoration: none;
+    color: #3a3a3a;
+  }
+  .products .product-content .product__cate {
+    margin: 0px 10px;
+    color: #909090;
+  }
+  .products .product-content .product-price {
+    margin: 5px 10px;
+  }
+  .products .product-content .product-price span {
+    font-weight: bold;
+  }
+  .products .product-thumbnail {
+    position: relative;
+  }
+  .products .product__sale {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: 1px solid #e97171;
+    border-radius: 80px;
+    padding: 4px 1px;
+    background-color: #e97171;
+    color: white;
+  }
+  .products .product__name {
+    margin: 0;
+    padding: 0;
+  }
+  .products .product-content-extra {
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .products .btn__addtocart {
+    max-width: 150px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    color: #b88e2f;
+    padding: 3px 8px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .products .new-icon {
+    margin-top: 10px;
+    font-size: 8px;
+    padding: 0;
+  }
+  .products .new-icon span {
+    color: white;
+    margin: 0px 7px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .products .product-item {
+    background-color: #f4f5f7;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .products .product-item .product__thumbnail {
+    padding: 0;
+    margin: 0;
+  }
+  .products .product-item .product__thumbnail img {
+    width: 284px;
+    height: 250px;
+  }
+  .products .product-item:hover .product-content-extra {
+    opacity: 1;
+    bottom: 0;
+  }
+  .products .product-content {
+    background: #f4f5f7;
+  }
+  .products .product-content .product__name {
+    margin: 10px 10px;
+  }
+  .products .product-content .product__name a {
+    text-decoration: none;
+    color: #3a3a3a;
+  }
+  .products .product-content .product__cate {
+    margin: 0px 10px;
+    color: #909090;
+  }
+  .products .product-content .product-price {
+    margin: 5px 10px;
+  }
+  .products .product-content .product-price span {
+    font-weight: bold;
+  }
+  .products .product-thumbnail {
+    position: relative;
+  }
+  .products .product__sale {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: 1px solid #e97171;
+    border-radius: 80px;
+    padding: 4px 1px;
+    background-color: #e97171;
+    color: white;
+  }
+  .products .product__name {
+    margin: 0;
+    padding: 0;
+  }
+  .products .product-content-extra {
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .products .btn__addtocart {
+    max-width: 150px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    color: #b88e2f;
+    padding: 3px 8px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .products .new-icon {
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 0;
+  }
+  .products .new-icon span {
+    color: white;
+    margin: 0px 7px;
+  }
+}/*# sourceMappingURL=new.css.map */

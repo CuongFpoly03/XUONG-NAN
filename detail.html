@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- link fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- link scss -->
+
+    <!-- link home -->
+    <link rel="stylesheet" href="./src/assets/scss/Home/new.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Home/blog.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Home/services.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Home/shop.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Home/login.css" />
+    <!-- link shop -->
+    <link rel="stylesheet" href="./src/assets/scss/Shop/productshop.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Shop/topshop.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Shop/detailshop.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Shop/carts.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Shop/checkout.css" />
+    <!-- link base -->
+    <link rel="stylesheet" href="./src/assets/scss/base/index.css" />
+
+    <!-- link nav -->
+    <link rel="stylesheet" href="./src/assets/scss/Nav/banner.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Nav/footer.css" />
+    <link rel="stylesheet" href="./src/assets/scss/Nav/header.css" />
+
+    <style
+      type="text/css"
+      data-vite-dev-id="D:/ON-SCHOOL/learn-typescript/New-Services/New-FE/src/App.css"
+    ></style>
+    <style
+      type="text/css"
+      data-vite-dev-id="D:/ON-SCHOOL/learn-typescript/New-Services/New-FE/src/index.css"
+    ></style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <a class="img" href="/"
+            ><img
+              src="https://s3-alpha-sig.figma.com/img/2727/769b/a74736d502746301ed573ed8940fc322?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=n2DqAHBGQPhsp3vg6oRpqFa4vGXSfxjq-OcVuimFF9JchzrV9pcOkpcyHKAJGLxS3t6k2f0i1Pe8kai3EdZKzmgVVv~YUk7kwSDJbRNVP74rOvx214dtKeT5yt6ySy24SLgeklaWJPTi8moS9kHhhRGQzNUEph172ADZI9Saa3ZXiiFUHQSU~D51PzwATxQeTZmdE66pKgiobNgCtbHMIDzuE0OC~Dwc75FIiJDYUql8iV4hRNe6~Wk9LOm-28QTeakfRJw4T7a9xrlsZWymN8yyyiC9b6N-hg7KIvg-J8QhlOqIyvokg35uJsjmAPGasOluY4u7zZW4wl8kulPEMQ__"
+              alt=""
+            /><span> Furniro</span></a
+          >
+          <nav class="main-menu">
+            <ul class="main-menu__list">
+              <li class="main-menu__item">
+                <a class="main-menu__link" href="./home.html">Home</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__link" href="./shop.html">Shop</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__link" href="/about">About</a>
+              </li>
+              <li class="main-menu__item">
+                <a class="main-menu__link" href="/contact">Contact</a>
+              </li>
+            </ul>
+            <div class="menu-container">
+              <div class="menu-icon" id="menuIcon">
+                <div class="user">
+                  <a class="link" href="/login"
+                    ><i class="fa-solid fa-user"></i
+                  ></a>
+                </div>
+                <div class="search">
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="wishlist">
+                  <span><i class="fa-solid fa-heart"></i></span>
+                </div>
+                <div class="cart">
+                  <a class="link" href="./cart.html"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </div>
+                <div class="menu-chilrend">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="header-block">
+            <div class="user">
+              <a class="link" href="/login"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="search">
+              <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            </div>
+            <div class="wishlist">
+              <span><i class="fa-solid fa-heart"></i></span>
+            </div>
+            <div class="cart">
+              <a class="link" href="/cart"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="product-detail">
+      <div class="detail-top">
+        <span
+          >Home<i class="fa-solid fa-angle-right"></i> shop
+          <i class="fa-solid fa-angle-right"></i><span>|</span> </span
+        ><span class="text-detail">Name products</span>
+      </div>
+      <div class="container">
+        <div class="detail-both">
+          <div class="detail-left">
+            <div class="img-children">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/e8e6/980e/c9e9224b3002d53824688ecee9c882c5?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=BOA6l0gi3XhMhB3pK-br-hW6rtSmrUS03kcg-P8TNDpRGkGJKcNcBraZJHE~y~YbhkZzpOHU0TrvcZDhhUqK--aAzD~H77MSeb4OgywukrNcI2apBIFoP8p5oeJTSPF2sSvUy2Y58mWfEQ00QuCcqoPHlimOfax2tXKKX9Kr4x-6-Eq2MRK7rYGQAyqYjumUNMWyo7wS7QFLsNHiyHuGRxiqX~Ks9TIu~TT5DRW3PaZOahUajbZbxWWVugS7BpKVhhnFWIVPZLMrMdR16e0HzBEAxkHZSeCAvYYQ9P8p26y0XzjBkyGKYb~2dKeVYYZFfltd5HOOkraAyi4ngOAYpw__"
+                alt=""
+              /><img
+                src="https://s3-alpha-sig.figma.com/img/4d65/4cce/148fae44b3bf6e9ac8ce6743c19e7de6?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=dAPcYI1eME-ZmmSCOt4sqjv32GNoGNaLlX6Mw1YK4TadzL5VBq0pFl17a6H-ohiVDdQLqRjlysDbgop00B9gqWjy2ZBNCZ~34GKygoSoGfGmnrz71~V-RlitwOoBItUqyBAZIG9n9u926-FFasox8S551EixMSaAZWokuJUZ66EaT34-0ldWXLVxVS5v-LOkH2~nqAMJcaA8bMJn~j2lBJWWiY16B6lJ3CN02VtGjzhrMnBRRpS9sMTBwySBFnCCDR3hg3IhCj-Wd76u2JtHpZZNVM~PtujuqfmxisQMKXWe~RTPu3-Hpt8kXfy1drwotKg6iWwyEoxFjZpgXd5jmA__"
+                alt=""
+              /><img
+                src="https://s3-alpha-sig.figma.com/img/83ef/2293/24c656816d67a755100ac5f664833551?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=hGZqWnzjngBCc9QlrTgRPukdVrLdS8uyKGPFO7ULURs3f313JmN87Prr6Jiqkp0FnHR1syz9ncjm6B5ceAiIUaICGKOYyb5B3x0xTVv51Gmx7-Kb7oRr0xUGXOPn-DSDCBaztY8R2weba15USrZESKgu-74CenM4I5ckSLwh9LdrX9zYJmxsdxfHA3GSD-0kgjXXAjDvS6S-4FWFQa~GgocgtDUtkctyd6PaHUNKmWMinjbvl07CcZlMDcqanEG3huoSn3RkvmDDsGKMx8fRw6cxxXIFNgkI6mws-yrIr8QtQpWsPDYpFrmHwfum54btDNcNIOOyOeHKHNOTOeON~Q__"
+                alt=""
+              /><img
+                src="https://s3-alpha-sig.figma.com/img/75ae/609a/0c46ac4eb9c274966b1133cb71128f16?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=POReciVO1F2mfNjDW13UBBQiTKZKkffMjIka59CNmZE6QkmzrKpawKESEmhiWqs4jAa0kAMJQzyUH7NT~Yby955Etx7~0bpkNBWQMAKN6eetAx-KnwNtY7LUFwpgofqjpO~fGZom-6-uZBu2UYaTFCRlRgXEPceCRrqjR-2g6G4H-i-4LRpCa~~iI-1QQqc9rHGStp6yCHB96qKKcZd7Nk1HQvOiplTNbtmVbAuCkgWE0nvJ3OsmyIqmV20w8RakX6k-sDwYIg4zvxcW5ccHtDCJSabPgwULfDeTKmsmTRRtabKoyW5eMEfvCZd~mMwUR2zmj1QXmk2hE2AWOB2fCg__"
+                alt=""
+              />
+            </div>
+            <div class="img-parser">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/2ac4/13c1/917ac944454e358f73d0af67e1f1b74e?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=VGXqfJhdHGKlr9GT-BbRl6NbRc9ItAIE~~IgzV8~xzu7xmsKI0PhYvgaxzRlc-YDr6I0XutICx7KYw-F2Yf0MuI5DmybaAGs~Pouiann6d0hSUSPEZn2zR4gNcQ-8qWdii66n0vDRw~Aewi0GtMVs7zxIjK7XHy4XxwcgbdVLQRAjy20ZDQwl3gWdhu5KKbPezpp3v1o1B2Y4lSb3O9~q4l67ArRpyXJfT1IiPNzfia~jjJ8PilOZRKT38FlBaB-APhDJ5UqAw6wjdXm2uP4PxisbcXXQ85UlPQI4Y6rFfAdxN7r3koLTvZIV4t6rt2WBKhd7l7Y2N22L3y1urfEDQ__"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="detail-right">
+            <div class="info-detail">
+              <h3>NAME PRODUCT</h3>
+              <span>25.000.000đ</span>
+              <div class="start">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i> |
+                <span> 5 Customer Review</span>
+              </div>
+              <p>
+                Setting the bar as one of the loudest speakers in its class, the
+                Kilburn is a compact, stout-hearted hero with a well-balanced
+                audio which boasts a clear midrange and extended highs for a
+                sound.
+              </p>
+              <div class="size-detail">
+                <label class="label" for="">Size</label><br /><button
+                  class="box-bg"
+                >
+                  L</button
+                ><button>XL</button><button>XS</button>
+              </div>
+              <div class="color-detail">
+                <label class="label" for="">Color</label> <br /><button
+                  class="box-one"
+                ></button
+                ><button class="box-two"></button
+                ><button class="box-three"></button>
+              </div>
+              <div class="quantity-detail">
+                <div class="div-button">
+                  <button>-</button><button>1</button><button>+</button>
+                </div>
+                <div class="button-detail"><button>Add To Cart</button></div>
+                <div class="button-details"><button>Compare</button></div>
+              </div>
+              <div class="icon-detail">
+                <div class="icon-one">
+                  SKU <span class="dot">:</span><span>SS001</span>
+                </div>
+                <div class="icon-two">
+                  Category<span>:</span><span>Sofas</span>
+                </div>
+                <div class="icon-three">
+                  Tags<span class="dot">:</span
+                  ><span>Sofa, Chair, Home, Shop</span>
+                </div>
+                <div class="icon-four">
+                  Share<span class="dot">:</span>
+                  <span
+                    ><i class="fa-brands fa-facebook"></i
+                    ><i class="fa-brands fa-linkedin-in"></i
+                    ><i class="fa-brands fa-twitter"></i
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="des-detail">
+          <div class="nav-des-detail">
+            <a class="text-nav">Description</a><a>Additional Information</a
+            ><a>Reviews[5]</a>
+          </div>
+          <div class="text-des-detail">
+            <p>
+              Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+              portable active stereo speaker takes the unmistakable look and
+              sound of Marshall, unplugs the chords, and takes the show on the
+              road.
+            </p>
+            <p>
+              Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+              vintage styled engineering. Setting the bar as one of the loudest
+              speakers in its class, the Kilburn is a compact, stout-hearted
+              hero with a well-balanced audio which boasts a clear midrange and
+              extended highs for a sound that is both articulate and pronounced.
+              The analogue knobs allow you to fine tune the controls to your
+              personal preferences while the guitar-influenced leather strap
+              enables easy and stylish travel.
+            </p>
+          </div>
+          <div class="img-detail">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/b739/5be5/3f5927c3cf50e945c3e0f03b3206e810?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=A45QA5yyNnbUX7xQS4-FTyHiZCV870xiYfAF-uEbA-itQlQuVOoERSQfJSzh74so8UhgKWuy3l8QXc2gh-7VzmiePNR8V2DOkpLv3GueiuAGlerHDjd9fUPSAM8VDjiJOEj5WhU0s6eBg81GTe6EWmWz3ZEEzG5RvnEoNc332rkYkQmIzSO07YEQ43cSSDc6AiuPbGpvLQ86eSxMUIPG5-h2rhWPvGiJ4WEao6SLAH6MtvfDE-8mKaVvo6EmPjYz5KsioRhtCC6Og82DyW~3qiR~lWhrvKSovvbbw-YdcX1OoJXZcNdeCafyF4GnRrE94hYoh3KrfrObVnwNsh~StA__"
+              alt=""
+            /><img
+              src="https://s3-alpha-sig.figma.com/img/1421/901b/217b5f7ea72cbcd9ce3062c4165744e5?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=m1QQEGFC8EwxM4i1HcOMmHP36gB1JOoDtBIJrGuUu64t7BavECYf4~Pc0--4VKzCcGLD1kSNV6-Z9xl7PflKU0fMdoFnNnw3lNh4QCTWhrJIIRq3YYhKA9IhPpeWveuVw2FAC3SxtDGs483WExD68g7TtttSgc~XSZTjvIRmIYK8izMVRz2VZyVXSzBJQzKm9uS4w-G-lVSYN-5sC4pdwOCQ1893cfHkyiJ3KyM3KsLrdkGxRyCuOR5PfnpKu2jhaY5cMFcCaHwVycX1RB7O46vNy0rtz0SkmZ~CSjX3BnSSrqqSvvfv64HCV13KXFiPwaGdkuLisW6KZFzFBp82ag__"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="related-detail">
+          <p class="h4">Related Products</p>
+          <div class="products-related">
+            <div class="product-item">
+              <div class="product__thumbnail">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/4491/a0ea/43eebd52ea72d60650f31030ec4bf7e6?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=YE6Eb6AmAcG~nBbOG50XLA92IyW1HBVCKLhrJFBWoUdpVPePgm1YHgYJNqjKqOazSzW9XDt7mgo2spBJ-MgBEPOm6ubsK~BfzSKhy7zlksVa-9aysAJ6~VZs-rejxINtZND9sOGziolqjftdlD1y1yagGHBfKWgZiZ-F1otv2-oAmfnZPJWSqSAN2hZ2jtMoM6Y25YxRwnGZZCxMGh~4nx39weBQLov~g6q4P6TmcSoqsj9V0ouc4EoSWd7R5LyPVLwkzZyD6UmGtyiRf6ukwIgpTFTSK18acq~c8NSY~iaK1CIeIgLbGfNzfjYydZzLENshP-GTVdNCtoJcr6a0pw__"
+                  alt=""
+                /><span class="product__sale">50%</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Product A</a>
+                </h3>
+                <a class="product__cate">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-content-extra">
+                <button class="btn__addtocart">Add to cart</button>
+                <div class="new-icon">
+                  <span><i class="fa-solid fa-share-nodes"></i>Share</span
+                  ><span><i class="fa-solid fa-right-left"></i></span
+                  ><span><i class="fa-regular fa-heart"></i>Like</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product__thumbnail">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/3ed3/53ed/bdb0310fb379a6b1828809d2c0652533?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=T4CVAnqLxavptqOVNfQFjCZq3ZPlZI7JaMWdv1pIs6m8gLoNQeTftvsBva6EhK9AoRhIYT4Ryv32W1t5krPmKp72yIrjrRyAiEkFWF7Vq8IBgZF0~0EtH-Z9Ky9f7rFPXL0bkfQBJdbnEWeMT7hFKU7MUz54BHUL3AJn8lgKATnWGvJSlvvsMjVw7xmSSeNtkOCOITROyljy~XWpnxwa13lsT5mpFgIWZODmPYvgOPaI6dr~3BcVSps10oGiFFeWITkobFV85fwXcfxhiTCw1HC87oxJ5mwABKZOF0JamBEyQsqyJROesWvuU3gfMki-5sz~27VVeIVLW7kBhoboQg__"
+                  alt=""
+                /><span class="product__sale">50%</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Product A</a>
+                </h3>
+                <a class="product__cate">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__new">2.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-content-extra">
+                <button class="btn__addtocart">Add to cart</button>
+                <div class="new-icon">
+                  <span><i class="fa-solid fa-share-nodes"></i>Share</span
+                  ><span><i class="fa-solid fa-right-left"></i></span
+                  ><span><i class="fa-regular fa-heart"></i>Like</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product__thumbnail">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/2084/99f3/7c62fb49f7d4a1a6a5dc5959b40150ed?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=nN-eGYSoo2N~5E9TMitsyPnOJ09WG-R3ajjROCcAh2PyqWlNRkRjNC-T7-cqH8H5L8xTCfKdU1z00KJE7bFK00XZeoWadMyZVwTuSPi3BypBNuNRO8fBgNfhIMjBwUHs-UeNxT0cm4UrACNahKEi-jXzUdjMPlFKoFSJUzefmKW1JdCG8E9ar9hEwhYm2I~ygRh9p282GyWrOiqTiNX2mkHOrSvPxRTWR161Egl7LjbieNkzlr8yLiO3yPVxbw6pSaHpNg~8Epn85ike-ULfZ5nLgyH4ljv5mqJPf6Le~AgcpX~Z9Vty15CKq3osuADlwmJO-x25s0hC0IbVvVJZeQ__"
+                  alt=""
+                /><span class="product__sale">50%</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Product A</a>
+                </h3>
+                <a class="product__cate">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__old">3.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-content-extra">
+                <button class="btn__addtocart">Add to cart</button>
+                <div class="new-icon">
+                  <span><i class="fa-solid fa-share-nodes"></i>Share</span
+                  ><span><i class="fa-solid fa-right-left"></i></span
+                  ><span><i class="fa-regular fa-heart"></i>Like</span>
+                </div>
+              </div>
+            </div>
+            <div class="product-item">
+              <div class="product__thumbnail">
+                <img
+                  src="https://s3-alpha-sig.figma.com/img/1f73/e563/4a5dbc0c29efbae1beca6ab40dd9b598?Expires=1711324800&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=Hwh2DIqwbbpUU-jsLEO0Awkd5w6WhRQw48g4hbFs4eXsaybwEOrTx6IHyClnV1DQjw-rx8xXIwNcMxb4HGYyOgrfVw0yYv8pI5Mga9xpFsVsiAptioRwzmawld50dQLEhMgd8brxokUYw~Q0Xc1p5nqMtAC074Sf0NHZ6goEjCv8KYlm3OGofGowRq8T1hW7MiW~1igEA3frClSNKqC3cEgSX5nyOGjqnvQ4GJYuDpqIyci2Mb8PkLMgUMiOWN-1V3H8HK2KyzLoI0Ea1bwHuaZsmufMM-TOjg3lkbqmercIuK6R0qJdc-~i4KHMoM-I1-VwO0LcA76p36sfqmMpNw__"
+                  alt=""
+                /><span class="product__sale">50%</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product__name">
+                  <a href="" class="product__link">Product A</a>
+                </h3>
+                <a class="product__cate">Stylish cafe chair</a>
+                <div class="product-price">
+                  <span class="product-price__old">3.500.000đ</span>
+                </div>
+              </div>
+              <div class="product-content-extra">
+                <button class="btn__addtocart">Add to cart</button>
+                <div class="new-icon">
+                  <span>Share</span><span>Compare</span><span>Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="show-more-detail">Show More</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>Funiro</h3>
+          <p class="footer-text">
+            400 University Drive Suite 200 Coral Gables, FL 33134 USA
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <p>Home</p>
+          <p>Shop</p>
+          <p>About</p>
+          <p>Contact</p>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <p>Payment Options</p>
+          <p>Returns</p>
+          <p>Privacy Policies</p>
+        </div>
+        <div class="footer-col col2">
+          <h4>Newsletter.</h4>
+          <span>Enter Your Email Address </span><a>SUBSCRIBE</a>
+        </div>
+      </div>
+      <p class="footer-bottom">2023 furino. All rights reverved</p>
+    </footer>
+  </body>
+</html>

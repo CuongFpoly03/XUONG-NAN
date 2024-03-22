@@ -1,0 +1,71 @@
+.banner {
+  margin: 0;
+  padding: 0;
+}
+.banner img {
+  width: 1440px;
+  height: 500px;
+}
+.banner .title-banner {
+  position: absolute;
+  width: 1348px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.banner .title-banner h2 {
+  margin-top: 10%;
+  font-size: 3rem;
+}
+.banner .title-banner h5 {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .banner {
+    margin: 0;
+    padding: 0;
+  }
+  .banner img {
+    width: 482px;
+    height: 200px;
+  }
+  .banner .title-banner {
+    position: absolute;
+    width: 358px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .banner .title-banner h2 {
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+  .banner .title-banner h5 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .banner {
+    margin: 0;
+    padding: 0;
+  }
+  .banner img {
+    width: 1025px;
+    height: 380px;
+  }
+  .banner .title-banner {
+    position: absolute;
+    width: 750px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .banner .title-banner h2 {
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+  .banner .title-banner h5 {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=banner.css.map */
